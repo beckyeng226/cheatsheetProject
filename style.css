@@ -1,0 +1,31 @@
+header {
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+}
+
+table {
+    display: table;
+    align: center;
+    font-family: monospace;
+    font-size: 18px;
+    background-color: aquamarine;
+    color: darkblue;
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+thead {
+    background-color: lavender;
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+table, tr, td {
+    border: 1px solid darkblue;
+    padding: 2px 5px;
+}

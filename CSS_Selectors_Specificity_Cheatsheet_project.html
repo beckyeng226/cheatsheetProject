@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors and Specificity Cheatsheet</title>
+    <link href="style.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+    
+   <header>
+   <h1>CSS Selectors & Specificity Cheatsheet
+   </h1>
+
+  </header>
+
+
+<table class="center">
+    <thead>
+        <tr>
+            <td>
+            Selector Type
+            </td>
+            <td>
+            Specificity
+            </td>
+            <td>
+            Example
+            </td>
+            </tr>
+    </thead>
+
+<tr>
+<td>
+Element
+</td>
+<td>
+Applies to all elements
+</td>
+<td>
+h1 {}
+</td>
+</tr>
+<tr>
+<td>
+Class
+</td>
+<td>
+Applies to all members of a class
+</td>
+<td>
+.class {}
+</td>
+</tr>
+<tr>
+<td>
+ID
+</td>
+<td>
+Applies only to the item designated by the ID (and only used once)
+</td>
+<td>
+#id {}
+</td>
+</tr>
+<tr>
+<td>
+!important
+</td>
+<td>
+Supercedes all other styling - useful when using multiple stylesheets
+</td>
+<td>
+styling !important
+</td>
+</tr>
+<tr>
+<td>
+Chaining Selectors
+</td>
+<td>
+Combining multiple selectors - selects only elements that have that class
+</td>
+<td>
+h1.special {}
+</td>
+</tr>
+<tr>
+<td>
+Nested Elements
+</td>
+<td>
+Applies to elements nested within a class
+</td>
+<td>
+.class li {}
+</td>
+</tr>
+</table>
+
+ </body>
+
+</html>
